@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe("SignUpPage", () => {
   it("SignUpPage shows the form", () => {
     cy.visit("http://localhost:5173");

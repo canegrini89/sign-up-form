@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe("ConfirmationPage", () => {
   it("ConfirmationPage shows the confirmation message", () => {
     cy.visit("http://localhost:5173/confirmation");
